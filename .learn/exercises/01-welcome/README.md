@@ -1,24 +1,17 @@
-# `01` Hello World
+# `01` Welcome to the Instagram Post Creation Exercise with HTML and CSS!
 
-You can have just a README file and it will be like a page in a book, no code files.
+## 💬 Understanding the Project
 
-You can also add a `README.[lang].md` file for translations, for example: `README.es.md` for spanish.
+In this exercise, we will create a web page that simulates an Instagram post using only HTML and CSS.  
+This project will help you strengthen your understanding of basic web page structure with HTML and visual design with CSS. 
 
-## Video compatibility
+We will simulate the basic interface of a post, including:
+- An image  
+- Description text  
+- Interactive buttons  
+- Visual styles to give it the appearance of a real post
 
-If you want to include some video introduction for each exercise, add a `intro` property in the markdown frontmatter of the README.md for that particular exercise:
+### **Proposed Image of the Project:**
 
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```
+![ig post layout](../../assets/instagram-post-layout.png)
 
-You can also add a video solution for each exercise by adding a `tutorial` property on the markdown frontmatter of it's README.md:
-
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
-tutorial: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```

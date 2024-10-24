@@ -13,7 +13,18 @@ Dividir el proyecto en pequeñas partes (como encabezado, imagen, contenido) ayu
 
 En este paso, vas a crear la estructura del post de Instagram utilizando etiquetas `div` para organizar las secciones. 
 
-- Crea un contenedor `div.card` que tendrá tres secciones:
+- Crea un contenedor `div.card` que tendrá tres secciones, tal y como lo indica la imagen:
 - Encabezado (`div.header-card`): Aquí irá el avatar del usuario, su nombre y un menú de opciones.
 - Image (`div.image`): Donde se mostrará la imagen principal del post.
 - Cuerpo (`div.content-card`): Incluirá los íconos de interacción y la descripción del post.
+
+
+### Ejemplo:
+
+```html
+<div class="card">
+  <div class="header-card"></div>
+  <div class="image"></div>
+  <div class="content-card"></div>
+</div>
+```
