@@ -5,7 +5,7 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://4geeks.com)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-*These instructions are [available in spanish](https://github.com/breatheco-de/instagram-post-layout-tutorial/blob/main/README.md)*
+*These instructions are [available in spanish](https://github.com/breatheco-de/instagram-post-layout-tutorial/blob/main/README.es.md)*
 <!-- endhide -->
 
 ### Before you start...
