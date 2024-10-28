@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-// Ruta del archivo index.html
-const filePath = path.join(__dirname, 'index.html');
+// path file index.html
+const filePath = path.join(__dirname, '../../../app/index.html'); 
 
 describe('Initial HTML Setup', () => {
   test('should create index.html file', () => {
