@@ -1,4 +1,4 @@
-# `06` Positioning the interaction icons section
+# `05` Positioning the interaction icons section
 
 In this step, you will organize the interaction icons in the post body, such as the "like," "comment," "send," and "save" buttons.
 

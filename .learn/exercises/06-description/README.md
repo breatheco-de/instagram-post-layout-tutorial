@@ -1,4 +1,4 @@
-# `07` Add the likes section and post description
+# `06` Add the likes section and post description
 
 In this step, you will add the section that shows the number of likes and a brief description of the post.
 

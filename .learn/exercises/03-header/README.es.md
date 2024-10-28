@@ -1,4 +1,4 @@
-# `04` Crear el encabezado del post
+# `03` Crear el encabezado del post
 
 Construye la sección de encabezado de tu post de Instagram.
 

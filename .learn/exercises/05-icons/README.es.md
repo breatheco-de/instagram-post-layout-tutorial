@@ -1,4 +1,4 @@
-# `06` Posicionamiento de la sección de iconos de interacción
+# `05` Posicionamiento de la sección de iconos de interacción
 
 En este paso, organizarás los íconos de interacción en el cuerpo del post, como los botones de "me gusta", "comentar", "enviar" y "guardar".
 

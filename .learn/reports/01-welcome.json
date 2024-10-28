@@ -1,0 +1,25 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 3,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "should create index.html file",
+      "status": "passed"
+    },
+    {
+      "title": "should contain basic HTML structure",
+      "status": "passed"
+    },
+    {
+      "title": "should link to styles.css or ./styles.css",
+      "status": "passed"
+    }
+  ]
+}

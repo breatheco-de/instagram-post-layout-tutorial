@@ -1,4 +1,4 @@
-# `08` Final design review
+# `07` Final design review
 
 In this step, you will conduct a comprehensive review of the design to ensure it closely resembles the proposed Instagram post image.
 

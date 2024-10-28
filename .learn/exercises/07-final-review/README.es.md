@@ -1,4 +1,4 @@
-# `08` Revisión final del diseño
+# `07` Revisión final del diseño
 
 En este paso, realizarás una revisión completa del diseño para asegurarte de que se asemeje lo más posible a la imagen del post de Instagram que hemos propuesto.
 

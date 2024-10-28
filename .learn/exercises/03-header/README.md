@@ -1,4 +1,4 @@
-# `04` Create the post header
+# `03` Create the post header
 
 Build the header section of your Instagram post.
 

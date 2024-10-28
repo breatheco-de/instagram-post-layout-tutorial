@@ -1,4 +1,4 @@
-# `03` Crear la estructura principal
+# `02` Crear la estructura principal
 
 Antes de escribir una sola línea de código, es esencial entender completamente lo que se quiere lograr. Por ejemplo, si van a desarrollar una tarjeta de interfaz como en el ejemplo de la imagen, necesitan hacerse preguntas como:
 

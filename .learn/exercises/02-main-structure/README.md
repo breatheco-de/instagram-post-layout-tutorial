@@ -1,4 +1,4 @@
-# `03` Create the main structure
+# `02` Create the main structure
 
 Before writing a single line of code, it's essential to fully understand what you want to achieve. For example, if you're going to develop an interface card like the one in the image, you need to ask yourself questions such as:
 

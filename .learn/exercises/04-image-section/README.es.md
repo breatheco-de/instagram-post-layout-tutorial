@@ -1,4 +1,4 @@
-# `05` Agregar la imagen principal
+# `04` Agregar la imagen principal
 
 En este paso, agregarás la imagen principal de tu post de Instagram. 
 
