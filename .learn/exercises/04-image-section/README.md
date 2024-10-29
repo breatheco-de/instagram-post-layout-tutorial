@@ -6,5 +6,12 @@ In this step, you will add the main image to your Instagram post.
 
 ### Instructions
 
-- **Add the `<img>` tag** to display the post image inside the image container `div` that you added in your `index.html` file, right below the `div.header-card`.
-- **Style the image** with CSS to ensure it fits properly within the post layout.
+- **Add the <img> tag** inside the div.image and link the following [image](../../assets/img-postcard.png) to display it in the post.
+
+Example:
+
+```html
+<img src="../.learn/assets/img-postcard.png" class="post-image"/>
+```
+- **Style the image** with CSS to ensure it fits properly within the post's design
+

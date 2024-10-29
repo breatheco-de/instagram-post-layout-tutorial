@@ -9,7 +9,7 @@ Dividir el proyecto en pequeñas partes (como encabezado, imagen, contenido) ayu
 
 ![main-structure](../../assets/main-structure.png)
 
-### Instrucciones:
+### Instrucciones 📝
 
 En este paso, vas a crear la estructura del post de Instagram utilizando etiquetas `div` para organizar las secciones. 
 

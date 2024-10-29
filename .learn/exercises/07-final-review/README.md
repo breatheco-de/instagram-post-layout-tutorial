@@ -2,14 +2,19 @@
 
 In this step, you will conduct a comprehensive review of the design to ensure it closely resembles the proposed Instagram post image.
 
-### Instructions:
+## Instructions 📝
 
-1. **Check Icon Alignment:** Ensure that the interaction icons are correctly aligned and evenly distributed at the bottom of the image.
+- **Verify the size of the card.** Set the card size to a width of `35%`.
 
-2. **Review Image Size:** Make sure that the main image maintains its proportions and fills the entire width of the container.
+- **Verify that the card is centered.** If not, apply a `margin: auto` to center it.
 
-3. **Adjust Colors and Margins:** Apply background colors, margins, and spacing that enhance the readability and overall appearance of the post.
+- **Add a background color to the card.** The background color you should add must be white.
 
-4. **Review Text:** Ensure that all text (username, description, likes) is legible and properly aligned.
+- **Add a background color to the `<body>`.** The background color you should add must be black.
 
-5. **Compare with Reference Image:** Use a reference image of the Instagram post to verify that the design resembles the original.
+- **Verify that the `<div class="content-card">`** has padding applied to ensure the design looks good.
+
+- **Check the size of the image:** Make sure the main image maintains its proportions and occupies the full width of the container, i.e., `width: 100%`.
+
+- **Check the text:** Ensure that all texts (username, description, likes) are legible and properly aligned.
+

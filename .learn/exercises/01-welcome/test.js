@@ -2,9 +2,15 @@ const fs = require('fs');
 const path = require('path');
 
 // path file index.html
+const appPath = path.join(__dirname, '../../../app');
 const filePath = path.join(__dirname, '../../../app/index.html'); 
 
 describe('Initial HTML Setup', () => {
+
+  test('should create the app folder', () => {
+    expect(fs.existsSync(appPath)).toBe(true);
+  });
+
   test('should create index.html file', () => {
     expect(fs.existsSync(filePath)).toBe(true);
   });

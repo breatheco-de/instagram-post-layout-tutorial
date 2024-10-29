@@ -2,13 +2,17 @@
   "success": false,
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTests": 3,
+  "numPassedTests": 4,
   "testResults": [
     {
       "message": null
     }
   ],
   "failed": [
+    {
+      "title": "should create the app folder",
+      "status": "passed"
+    },
     {
       "title": "should create index.html file",
       "status": "passed"

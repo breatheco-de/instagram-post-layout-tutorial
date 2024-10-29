@@ -1,0 +1,25 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 3,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "El <div> con clase \"post-content\" debe contener un párrafo con los likes usando <strong>",
+      "status": "passed"
+    },
+    {
+      "title": "El <div> \"post-content\" debe tener un segundo párrafo que comience con \"Lorem ipsum dolor\"",
+      "status": "passed"
+    },
+    {
+      "title": "El CSS debe aplicar una fuente legible y tamaño adecuado a los párrafos",
+      "status": "passed"
+    }
+  ]
+}

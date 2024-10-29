@@ -9,7 +9,7 @@ Breaking the project into smaller parts (such as header, image, content) helps a
 
 ![main-structure](../../assets/main-structure.png)
 
-### Instructions:
+### Instructions 📝
 
 In this step, you will create the structure of the Instagram post using `div` tags to organize the sections.
 
