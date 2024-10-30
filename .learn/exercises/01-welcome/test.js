@@ -31,7 +31,7 @@ describe('Initial HTML Setup', () => {
 test('should link to styles.css or ./styles.css', () => {
   const content = fs.readFileSync(filePath, 'utf-8');
   
-  // Verifica que el enlace al CSS sea exactamente './styles.css' o 'styles.css'
+  // Verify that the link to the CSS is exactly './styles.css' or 'styles.css'
   const regex = /<link rel="stylesheet" href="(\.\/styles\.css|styles\.css)">/;
   expect(content).toMatch(regex);
 });
