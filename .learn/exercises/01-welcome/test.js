@@ -11,12 +11,12 @@ describe('Initial HTML Setup', () => {
     expect(fs.existsSync(appPath)).toBe(true);
   });
 
-  test('should create index.html file', () => {
+  test('should create index.html file inside the ./app folder', () => {
     expect(fs.existsSync(filePath)).toBe(true);
   });
 
 
-  test('should contain basic HTML structure', () => {
+  test('Add basic HTML structure to the index.html file', () => {
     const content = fs.readFileSync(filePath, 'utf-8');
 
    // Check the basic structure regardless of spaces or line breaks
@@ -28,7 +28,7 @@ describe('Initial HTML Setup', () => {
 });
 
 
-test('should link to styles.css or ./styles.css', () => {
+test('Add link to styles.css or ./styles.css', () => {
   const content = fs.readFileSync(filePath, 'utf-8');
   
   // Verify that the link to the CSS is exactly './styles.css' or 'styles.css'
