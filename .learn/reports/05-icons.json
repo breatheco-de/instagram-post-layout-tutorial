@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 4,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "The \"content-card\" should contain a div with the class \"icons\"",
+      "status": "passed"
+    },
+    {
+      "title": "The \"icons\" div should contain a span with the class \"share\" and the correct icons",
+      "status": "passed"
+    },
+    {
+      "title": "The \"icons\" div should contain a span with the class \"save\" and the save icon",
+      "status": "passed"
+    },
+    {
+      "title": "CSS should apply Flexbox to align \"share\" and \"save\" sections",
+      "status": "passed"
+    }
+  ]
+}

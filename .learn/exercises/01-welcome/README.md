@@ -20,10 +20,9 @@ We will simulate the basic interface of a post, including:
 
 In this first step, you will create the initial structure of your HTML document. Follow these instructions:
 
-- Create an `app` folder at the root of this template, at the same level as the `learn.json` file.
-- Create the `index.html` file inside the `app` folder.
+- Create the `index.html` file at the root of this template, at the same level as the `learn.json` file.
 - Add the basic HTML structure with the `html`, `head`, and `body` tags.
-- Create the `styles.css` file and link it to the `index.html` file to use it later for styling.
+- Create the `styles.css` file at the same level as the `learn.json` file and link it to the `index.html` file to use it later for creating the styles.
 
 This is the starting point for your Instagram page. 🚀
 

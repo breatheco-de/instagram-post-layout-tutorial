@@ -1,5 +1,5 @@
 # Post de Instagram
-
+acen falta mas detalles en las instrucciones del instagram post en el archivo readme.es.md
 > By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/breatheco-de/instagram-post-layout-tutorial/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
 

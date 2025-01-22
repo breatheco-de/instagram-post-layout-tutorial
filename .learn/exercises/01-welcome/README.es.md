@@ -13,9 +13,8 @@ En este ejercicio vamos a crear una página web que simule un post de Instagram 
 
 En este primer paso, vas a crear la estructura inicial de tu documento HTML. Sigue las instrucciones:
 
-- Crea una carpeta `app` en la raiz de está plantilla, es decir al mismo nivel del archivo `learn.json`.
-- Crea el archivo `index.html` dentro de la carpeta `app`
+- Crea el archivo `index.html` en la raiz de está plantilla, es decir al mismo nivel del archivo `learn.json`.
 - Añade la estructura básica de HTML con las etiquetas `html`, `head`, y `body`.
-- Crea el archivo `styles.css` y vinculalo al archivo `index.html` para usarlo más adelante para crear los estilos.
+- Crea el archivo `styles.css`, al mismo nivel del archivo `learn.json` y vinculalo al archivo `index.html` para usarlo más adelante para crear los estilos.
 
 Este es el punto de partida para tu página de Instagram. 🚀

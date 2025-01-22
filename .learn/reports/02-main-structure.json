@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 4,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "should contain a div with class \"card\"",
+      "status": "passed"
+    },
+    {
+      "title": "should contain a div with class \"header-card\"",
+      "status": "passed"
+    },
+    {
+      "title": "should contain a div with class \"image\"",
+      "status": "passed"
+    },
+    {
+      "title": "should contain a div with class \"content-card\"",
+      "status": "passed"
+    }
+  ]
+}

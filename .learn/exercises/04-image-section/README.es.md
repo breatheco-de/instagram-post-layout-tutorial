@@ -6,11 +6,22 @@ En este paso, agregarás la imagen principal de tu post de Instagram.
 
 ### Instrucciones
 
-- **Agrega la etiqueta `<img>`** dentro del `div.image` y vincula la siguiente [imagen](../../assets/img-postcard.png) para mostrar en el post.
+## Agregar la etiqueta de imagen
 
-Ejemplo:
+1. Dentro del `div.image`, coloca una etiqueta `<img>` para mostrar la imagen.
+2. Usa la siguiente ruta para la imagen: `../../assets/img-postcard.png`.
+3. El código de ejemplo debería verse así:
 
-```HTML
-<img src="../.learn/assets/img-postcard.png" class="post-image"/>
-```
-- **Estiliza la imagen** con CSS para asegurarte de que se ajuste correctamente al diseño del post.
+   ```html
+   <img src="../.learn/assets/img-postcard.png" class="post-image" />
+   ```
+
+### Paso 2: Estilizar la imagen con CSS
+
+1. Asegúrate de que la imagen se ajuste al diseño del post: utilizaa la clase `.post-image` para aplicar los estilos.
+
+     ```css
+     .post-image {
+         width: 100%;
+     }
+     ```

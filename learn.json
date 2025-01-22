@@ -2,7 +2,32 @@
   "grading": "incremental",
   "difficulty": "easy",
   "duration": 2,
-  "description": "",
-  "title": "instagram-post-layout-tutorial",
-  "slug": "instagram-post-layout-tutorial"
+  "description": {
+    "en": "In this project, you will learn how to create an Instagram post layout using HTML and CSS. Through a series of guided steps, you will build the basic structure of the post, apply CSS styles to achieve a visually appealing and functional design, and use Flexbox to align elements within the user interface.",
+    "es": "En este proyecto, aprenderás a crear un diseño de post de Instagram utilizando HTML y CSS. A través de una serie de pasos guiados, construirás la estructura básica del post, aplicarás estilos CSS para lograr un diseño visualmente atractivo y funcional, y utilizarás Flexbox para alinear los elementos dentro de la interfaz de usuario."
+  },
+  "title": {
+    "en": "Instagram Post Layout Tutorial",
+    "es": "Tutorial de diseño de post de Instagram"
+  },
+  "slug": "instagram-post-layout-tutorial",
+  "repository": "https://github.com/breatheco-de/instagram-post-layout-tutorial",
+  "preview": "https://github.com/breatheco-de/instagram-post-layout-tutorial#readme",
+  "projectType": "tutorial",
+  "videoSolutions": false,
+  "bugsLink": "https://github.com/breatheco-de/instagram-post-layout-tutorial/issues",
+  "editor": {
+    "version": "4.0.2",
+    "mode": "extension",
+    "agent": "vscode"
+  },
+  "telemetry": {
+    "batch": "https://telemetry.breatheco.de/batch"
+  },
+  "video": {
+    "intro": {
+      "en": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "es": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    }
+  }
 }

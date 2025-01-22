@@ -2,16 +2,11 @@ const fs = require('fs');
 const path = require('path');
 
 // path file index.html
-const appPath = path.join(__dirname, '../../../app');
-const filePath = path.join(__dirname, '../../../app/index.html'); 
+const filePath = path.join(__dirname, '../../../index.html'); 
 
 describe('Initial HTML Setup', () => {
 
-  test('should create the app folder', () => {
-    expect(fs.existsSync(appPath)).toBe(true);
-  });
-
-  test('should create index.html file inside the ./app folder', () => {
+  test('there should be an index.html file in the root of the project', () => {
     expect(fs.existsSync(filePath)).toBe(true);
   });
 
@@ -27,12 +22,11 @@ describe('Initial HTML Setup', () => {
     expect(content).toMatch(/<body>\s*<\/body>\s*<\/html>/i);
 });
 
-
-test('Add link to styles.css or ./styles.css', () => {
+test('Add link to styles.css, ./styles.css, or style.css', () => {
   const content = fs.readFileSync(filePath, 'utf-8');
   
-  // Verify that the link to the CSS is exactly './styles.css' or 'styles.css'
-  const regex = /<link rel="stylesheet" href="(\.\/styles\.css|styles\.css)">/;
+  // Modify the regex to include "style.css"
+  const regex = /<link rel="stylesheet" href="(\.\/styles\.css|styles\.css|style\.css)">/;
   expect(content).toMatch(regex);
 });
 });

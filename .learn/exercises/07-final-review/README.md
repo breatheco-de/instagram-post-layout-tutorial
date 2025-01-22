@@ -1,20 +1,17 @@
-# `07` Final design review
+# `07` Final Design Review
 
-In this step, you will conduct a comprehensive review of the design to ensure it closely resembles the proposed Instagram post image.
+In this step, you will perform a complete review of the design to ensure it closely resembles the proposed Instagram post image.
 
 ## Instructions 📝
+**Check the size of the card** assign a width of `35%` to the card.
+**Check that the card is centered** if not, apply `margin:auto` to center it.
 
-- **Verify the size of the card.** Set the card size to a width of `35%`.
+**Add a background color to the card** the background color should be white.
 
-- **Verify that the card is centered.** If not, apply a `margin: auto` to center it.
+**Add a background color to the `<body>`** the background color should be black.
 
-- **Add a background color to the card.** The background color you should add must be white.
+**Check that the `<div class="content-card">`** has padding applied to ensure the design looks good.
 
-- **Add a background color to the `<body>`.** The background color you should add must be black.
+**Check the size of the image** make sure the main image maintains its proportions and occupies the full width of the container, i.e., `width:100%`.
 
-- **Verify that the `<div class="content-card">`** has padding applied to ensure the design looks good.
-
-- **Check the size of the image:** Make sure the main image maintains its proportions and occupies the full width of the container, i.e., `width: 100%`.
-
-- **Check the text:** Ensure that all texts (username, description, likes) are legible and properly aligned.
-
+**Check the text** make sure all texts (username, description, likes) are legible and properly aligned.

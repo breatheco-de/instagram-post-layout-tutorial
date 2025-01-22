@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 // path files
-const html = fs.readFileSync(path.resolve(__dirname, '../../../app/index.html'), 'utf8');
-const css = fs.readFileSync(path.resolve(__dirname, '../../../app/styles.css'), 'utf8');
+const html = fs.readFileSync(path.resolve(__dirname, '../../../index.html'), 'utf8');
+const css = fs.readFileSync(path.resolve(__dirname, '../../../styles.css'), 'utf8');
 
 // Auxiliary function to search for selectors within the CSS
 const findInCSS = (cssContent, selector) => {
