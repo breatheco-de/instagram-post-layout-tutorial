@@ -26,7 +26,8 @@ test('Add link to styles.css, ./styles.css, or style.css', () => {
   const content = fs.readFileSync(filePath, 'utf-8');
   
   // Modify the regex to include "style.css"
-  const regex = /<link rel="stylesheet" href="(\.\/styles\.css|styles\.css|style\.css)">/;
+  const regex = /<link\s+rel="stylesheet"\s+href="(\.\/styles\.css|styles\.css|style\.css)"\s*\/?>/;
+
   expect(content).toMatch(regex);
 });
 });

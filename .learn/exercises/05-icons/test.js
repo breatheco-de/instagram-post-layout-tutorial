@@ -32,12 +32,25 @@ describe('Icon layout test for Learnpack', () => {
       expect(html.includes('<span class="save">')).toBe(true);
       expect(html.includes('<i class="fa fa-bookmark"></i>')).toBe(true);  // Save icon
     });
+
   
-    test('CSS should apply Flexbox to align "share" and "save" sections', () => {
+    test('The .icons class should have display: flex and justify-content: space-between', () => {
       const styles = findInCSS(css, '.icons');
       expect(styles).toContain('display: flex');
       expect(styles).toContain('justify-content: space-between');
     });
+  
+   
+    test('The .icons class should adjust icon sizes with font-size: 24px', () => {
+      const styles = findInCSS(css, '.icons');
+      expect(styles).toContain('font-size: 24px');
+    });
+  
+    test('The .share class should have a gap property for uniform spacing', () => {
+      const styles = findInCSS(css, '.share');
+      expect(styles).toContain('gap:');
+    });
+
   
   });
   

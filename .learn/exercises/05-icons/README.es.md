@@ -5,24 +5,30 @@ En este paso, organizarás los íconos de interacción en el cuerpo del post, co
 ![content-card](../../assets/content-card-structure.png)
 
 
-## Instrucciones 📝
+## 📝 Instrucciones 
 
-- **Organiza los íconos en el HTML**: agrupa los íconos de "me gusta", "comentar" y "enviar" en un contenedor `<span>` o `<div>` con una clase específica, como `.share`, coloca el ícono de "guardar" en un contenedor separado, por ejemplo, un `<span>` o `<div>` con una clase como `.save`.
+1. **Organiza los íconos en el HTML**: Dentro del `<div class="content-card">` crearemos un `<div class="icons">`. Dentro de este div agruparemos los íconos de "me gusta", "comentar", "enviar" y "save".
 
-Ejemplo de estructura HTML: 
+2. Dentro del `<div class="icons">` crearemos 2 `<span>`. El primero con una clase específica, como `span.share` el cual contendrá los iconos "me gusta", "comentar" y "enviar".
+3. Para el segundo `<span>` agregale la clase `.save` y en el contendremos el ícono de "guardar".
+
+Se deberia ver asi: 
 
 ```html
-  <div class="share">
+<div class="icons">
+  <span class="share">
     <i class="fa fa-heart"></i>  <!-- Ícono de me gusta -->
     <i class="fa fa-comment"></i>  <!-- Ícono de comentar -->
     <i class="fa fa-paper-plane"></i>  <!-- Ícono de enviar -->
-  </div>
-  <div class="save">
+  </span>
+  <span class="save">
     <i class="fa fa-bookmark"></i>  <!-- Ícono de guardar -->
-  </div>
+  </span>
+</div>
 ```
 
-- **Estiliza con Flexbox en CSS**: aplica `display: flex` a la clase `.content-card` para organizar los contenedores `.share` y `.save` en línea horizontal. Alinea los íconos con `justify-content: space-between` en `.content-card`. Asegurarte de que los íconos estén alineados verticalmente en el centro `align-items: center`.
+4. **Estiliza con Flexbox en CSS**: Crea un selector para la clase `.icons`, aplicale `display: flex` y justificacion `justify-content: space-between` para organizar los contenedores `.share` y `.save`.  Asegurate de ajustar el tamaño de los íconos, por ejemplo, con `font-size: 24px`.
 
-- **Estiliza la sección de íconos**: asegúrate de que los íconos dentro de `.share` tengan un espacio uniforme entre ellos. Usa la propiedad `gap` para lograrlo.
-Ajusta el tamaño de los íconos, por ejemplo, con `font-size: 24px`.
+5. **Estiliza la sección de íconos**: Para la sección de iconos dentro de `.share` asegurate tengan un espacio uniforme entre ellos. Usa la propiedad `gap` para lograrlo.
+
+6. Crea un selector para `content-card` y aplicale la propiedad `padding`

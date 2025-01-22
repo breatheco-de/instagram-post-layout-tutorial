@@ -15,19 +15,20 @@ const findInCSS = (cssContent, selector) => {
 
 describe('Post content structure and styling for Learnpack', () => {
 
-  test('El <div> con clase "post-content" debe contener un párrafo con los likes usando <strong>', () => {
-    const likesRegex = /<p>\s*Liked by\s*<strong>4GeeksAcademy<\/strong>,\s*<strong>html5<\/strong>,\s*<strong>Web<\/strong>\s*and\s*<strong>100\.000 others<\/strong>\s*<\/p>/;
+  test('The <div> with class "post-content" should contain a paragraph with likes using <strong>', () => {
+    const likesRegex = /<p>\s*Liked by\s*<strong>\s*4GeeksAcademy\s*<\/strong>,\s*<strong>\s*html5\s*<\/strong>,\s*<strong>\s*Web\s*<\/strong>\s*and\s*<strong>\s*100[,.]000 others\s*<\/strong>\s*<\/p>/i;
+
     expect(likesRegex.test(html)).toBe(true);
   });
   
 
-  test('El <div> "post-content" debe tener un segundo párrafo que comience con "Lorem ipsum dolor"', () => {
+  test('The <div> "post-content" should have a second paragraph that starts with "Lorem ipsum dolor"', () => {
     const descriptionRegex = /<p>\s*Lorem ipsum dolor/;
     expect(descriptionRegex.test(html)).toBe(true);
   });
   
 
-  test('El CSS debe aplicar una fuente legible y tamaño adecuado a los párrafos', () => {
+  test('The CSS should apply a readable font and appropriate size to the paragraphs', () => {
     const styles = findInCSS(css, '.post-content p');
     expect(styles).toContain('font-family:');
     expect(styles).toContain('font-size:');
