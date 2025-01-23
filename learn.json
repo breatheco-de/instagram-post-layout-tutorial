@@ -1,6 +1,6 @@
 {
   "grading": "incremental",
-  "difficulty": "easy",
+  "difficulty": "beginner",
   "duration": 2,
   "description": {
     "en": "In this project, you will learn how to create an Instagram post layout using HTML and CSS. Through a series of guided steps, you will build the basic structure of the post, apply CSS styles to achieve a visually appealing and functional design, and use Flexbox to align elements within the user interface.",
@@ -21,6 +21,8 @@
     "mode": "extension",
     "agent": "vscode"
   },
+  "technologies": ["html", "css", "flexbox"],
+  "autoPlay": true,
   "telemetry": {
     "batch": "https://telemetry.breatheco.de/batch"
   },
