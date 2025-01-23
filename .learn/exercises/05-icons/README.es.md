@@ -27,8 +27,10 @@ Se deberia ver asi:
 </div>
 ```
 
-4. **Estiliza con Flexbox en CSS**: Crea un selector para la clase `.icons`, aplicale `display: flex` y justificacion `justify-content: space-between` para organizar los contenedores `.share` y `.save`.  Asegurate de ajustar el tamaño de los íconos, por ejemplo, con `font-size: 24px`.
+4. **Estiliza con Flexbox en CSS**: Crea un selector para `content-card` y aplicale la propiedad `padding`.
 
-5. **Estiliza la sección de íconos**: Para la sección de iconos dentro de `.share` asegurate tengan un espacio uniforme entre ellos. Usa la propiedad `gap` para lograrlo.
+5. Crea un selector para la clase `.icons`, aplicale `display: flex` y justificacion `justify-content: space-between` para organizar los contenedores `.share` y `.save`.  Asegurate de ajustar el tamaño de los íconos, por ejemplo, con `font-size: 24px`.
 
-6. Crea un selector para `content-card` y aplicale la propiedad `padding`
+6. **Estiliza la sección de íconos**: Para la sección de iconos dentro de `.share` asegurate tengan un espacio uniforme entre ellos. Usa la propiedad `gap` para lograrlo.
+
+

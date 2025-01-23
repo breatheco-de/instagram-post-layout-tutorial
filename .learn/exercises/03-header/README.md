@@ -42,6 +42,7 @@ Then create another `<div>` with the class `user-details` and place the texts "H
 
 **For `.details-container`:**
 - Use `display: flex` so that the icon and text are in a line.
+- Use `align-items: center` to align the icons.
 - Add `gap: 8px` to create a small space between the icon and the text.
 
 **For `.user-details`:**
@@ -52,6 +53,7 @@ Then create another `<div>` with the class `user-details` and place the texts "H
 - Create selectors for the HTML and ellipsis icons and apply `font-size: 30px` to make both more visible.
 - Create a selector for `body` and give it a black background color.
 - Create a selector for the `div.card` element and give it a white background color, a width of 35%, and `margin: auto` to center it automatically.
+- Create selectors for the icons and apply `font-size: 30px` to make them more visible and readable.
 
 ### 💡 HINT
 

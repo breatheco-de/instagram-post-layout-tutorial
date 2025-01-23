@@ -14,4 +14,13 @@ In this step, you will perform a complete review of the design to ensure it clos
 
 **Check the size of the image** make sure the main image maintains its proportions and occupies the full width of the container, i.e., `width:100%`.
 
-**Check the text** make sure all texts (username, description, likes) are legible and properly aligned.
+**Check the text** make sure all texts (username, description, likes) are legible and properly aligned. You may want to style the HTML and Rigoberto text.
+
+Example:
+
+```css
+.user-details span{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+```

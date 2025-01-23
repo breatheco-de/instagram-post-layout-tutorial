@@ -14,4 +14,13 @@ En este paso, realizarás una revisión completa del diseño para asegurarte de 
 
 **Revisa el tamaño de la imagen** asegúrate de que la imagen principal mantenga sus proporciones y ocupe todo el ancho del contenedor, es decir `witdh:100%`.
 
-**Revisa el texto** asegúrate de que todos los textos (nombre de usuario, descripción, likes) sean legibles y estén alineados correctamente.
+**Revisa el texto** asegúrate de que todos los textos (nombre de usuario, descripción, likes) sean legibles y estén alineados correctamente. Quizas quieras darle un estilo al texto de HTML y Rigoberto. 
+
+Ejemplo:
+
+```css
+.user-details span{
+    font-family: sans-serif;
+	font-weight: bold;
+}
+```

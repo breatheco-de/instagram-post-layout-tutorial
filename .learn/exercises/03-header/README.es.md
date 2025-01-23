@@ -41,6 +41,7 @@ Luego crea otro  `<div>` con la clase `user-details` y colocale dentro los texto
 
 **Para `.details-container`:**
 - Usa `display: flex` para que el ícono y el texto estén en línea.
+- Usa `align-items: center` para alinear los iconos.
 - Agrega `gap: 8px` para crear un pequeño espacio entre el ícono y el texto.
 
 **Para `.user-details`:**
@@ -52,6 +53,7 @@ Luego crea otro  `<div>` con la clase `user-details` y colocale dentro los texto
 - Crea selectores para el icono HTML y elipsis y aplicale un `font-size: 30px` para que ambos sean más visibles.
 - Crea un selector para `body` y dale un color de fondo negro.
 - Crea un selector del elemento `div.card` y dale un color de fondo blanco, un ancho de 35% y margen `auto` para que se centre de forma automatica.
+- Crea selectores para los iconos y agregale un `font-size: 30px` para que sean mas visibles y legibles.
 
 ### 💡 PISTA
 

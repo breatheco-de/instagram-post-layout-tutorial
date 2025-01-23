@@ -13,6 +13,7 @@ const findInCSS = (cssContent, selector) => {
 };
 
 describe('Header tests for Learnpack', () => {
+  
   test('The header should contain a span with the class "details-container" and an <img>', () => {
     expect(html.includes('<div class="details-container">')).toBe(true);
     expect(html.includes('<i class="fa fa-html5">')).toBe(true);
@@ -21,6 +22,12 @@ describe('Header tests for Learnpack', () => {
   test('The header should contain a span with the class "menu" and a Font Awesome icon', () => {
     expect(html.includes('<div class="menu">')).toBe(true);
     expect(html.includes('<i class="fa fa-ellipsis-v"></i>')).toBe(true);
+  });
+
+  test('The "styles.css" file should not be empty', () => {
+    
+
+    expect(css.trim().length).toBeGreaterThan(0);
   });
 
   test('The CSS should apply display: flex to the "header-card"', () => {
@@ -55,5 +62,7 @@ describe('Header tests for Learnpack', () => {
     expect(styles).toContain('width: 35%');
     expect(styles).toContain('margin: auto');
   });
+
+
 });
 
