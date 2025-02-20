@@ -23,9 +23,6 @@
   },
   "technologies": ["html", "css", "flexbox"],
   "autoPlay": true,
-  "telemetry": {
-    "batch": "https://telemetry.breatheco.de/batch"
-  },
   "video": {
     "intro": {
       "en": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
